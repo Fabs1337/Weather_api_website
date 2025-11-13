@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/css-reset.css">
     <title>Weather</title>
 </head>
 <body id="body-main">
     <div class="main">
-        <img src="./img/background_sun.png">
+        <img class="bkg-img" src="./img/background_sun.png">
         <span class="title">Weather</span>
         <span class="time">time place holder</span>
         
@@ -30,11 +31,11 @@
             <span class="sunset">Sunset: 8:00 PM</span>
             <span class="amount-rain">Rain: 10mm</span>
             <span class="amount-snow">Snow: 0cm</span>
-            <img src="./img/regenwolke.png">
-            <img src="./img/schneewolke.png">
-            <img src="./img/empty_cloud.png">
-            <img src="./img/thermostat.png">
-            <img src="./img/location_marker.png">
+            <img class="regenwolke" src="./img/regenwolke.png">
+            <img class="schneewolke" src="./img/schneewolke.png">
+            <img class="empty-cloud" src="./img/empty_cloud.png">
+            <img class="thermostat" src="./img/thermostat.png">
+            <img class="location_marker" src="./img/location_marker.png">
 
         </div>
 
@@ -43,47 +44,44 @@
         </div>
 
         <div class="grid-forecast">
-            <div class="box 1">
-                <img src="./img/cloud_lightning.png">
+            <div class="box b1">
+                <img class="cloud1" src="./img/cloud_lightning.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
-            <div class="box 2">
-                <img src="./img/cloud_lightning_rain.png">
+            <div class="box b2">
+                <img class="cloud2" src="./img/cloud_lightning_rain.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
-            <div class="box 3">
-                <img src="./img/cloud_sun.png">
+            <div class="box b3">
+                <img class="cloud3" src="./img/cloud_sun.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
-            <div class="box 4">
-                <img src="./img/sun.png">
+            <div class="box b4">
+                <img class="cloud4" src="./img/sun.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
-            <div class="box 5">
-                <img src="./img/cloud_sun.png">
+            <div class="box b5">
+                <img class="cloud5" src="./img/cloud_sun.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
-            <div class="box 6">
-                <img src="./img/cloud_sun.png">
+            <div class="box b6">
+                <img class="cloud6" src="./img/cloud_sun.png">
                 <div class="black-bottom"></div>
                 <span class="time-forecast">12:00</span>
                 <span class="temp-forecast">25°C</span>
             </div>
         </div>
     </div>
-
-
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>

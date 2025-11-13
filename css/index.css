@@ -1,0 +1,152 @@
+#body-main{
+
+}
+
+.main{
+    position: relative;
+
+}
+
+.bkg-img{
+    position: absolute;
+    width: 100%;
+    height: 134.97%;
+}
+
+.title{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 15px;
+    left: 15px;
+}
+
+.time{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    right: 15px;
+    top: 15px;
+}
+
+.prev-day{
+    position: absolute;
+}
+
+.weather-today{
+    position: relative;
+}
+
+#prev-day{
+    position: absolute;
+}
+
+#next-day{
+    position: absolute;
+}
+
+.location{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    top: 500px;
+}
+
+.date{
+
+}
+
+.temperature{
+
+}
+
+.max-temp{
+
+}
+
+.min-temp{
+
+}
+
+.luftfeuchtigkeit{
+
+}
+
+.wind-speed{
+
+}
+
+.sunrise{
+
+}
+
+.sunset{
+
+}
+
+.amount-rain{
+
+}
+
+.amount-snow{
+
+}
+
+.regenwolke{
+    
+}
+
+.schneewolke{
+    
+}
+
+.empty-cloud{
+    
+}
+
+.thermostat{
+    
+}
+
+.location_marker{
+    
+}
+
+.next-day{
+
+}
+
+.grid-forecast{
+
+}
+
+.box {
+
+}
+.b1 {
+
+}
+.b2 {
+
+}
+.b3 {
+
+}
+.b4 {
+
+}
+.b5 {
+
+}
+.b6 {
+
+}
+.black-bottom {
+
+}
+.time-forecast {
+
+}
+.temp-forecast {
+
+}
